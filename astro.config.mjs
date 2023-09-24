@@ -37,9 +37,9 @@ export default defineConfig({
       process.env.OUTPUT !== 'netlify' && VitePWA({
         registerType: 'autoUpdate',
         manifest: {
-          name: 'Anse',
-          short_name: 'Anse',
-          description: 'Anse is a fully optimized UI for AI Chats.',
+          name: 'Playground',
+          short_name: 'PlayAI',
+          description: 'Playground is a fully optimized UI for AI Chats.',
           theme_color: '#101010',
           background_color: '#ffffff',
           icons: [
